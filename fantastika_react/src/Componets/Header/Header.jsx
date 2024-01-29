@@ -10,9 +10,18 @@ function Header(){
         <div>
             <img src={LogoFanta} alt="logo da Fantastika, uma patinha"/>
             <h1>Fantastika</h1>
+
+            <a href="https://www.instagram.com/its_anephilim/">
             <img src={LogoInsta} alt="logo do Instagram"/>
+            </a> 
+
+            <a href="https://www.youtube.com/" target="_blank">
             <img src={LogoYt} alt="logo do YouTube"/>
+            </a>
+
+            <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank">
             <img src={LogoWpp}alt="logo do WhatsApp"/>
+            </a>
         </div>
     )
 }
