@@ -1,5 +1,7 @@
-import React from "react";
+import React, {useState} from "react";
 import styled from 'styled-components';
+
+//IMPORT DE IMAGENS
 import Americanas from "../Footer/img/logo_ame.png";
 import Havaianas from "../Footer/img/logo_hava.png";
 import LogoInsta from "../Header/img/logo_insta.png";
@@ -18,7 +20,7 @@ const Details = styled.li
 
 
 
-function Footer() {
+export default function Footer() {
     return (
         <>
         <div >
@@ -70,6 +72,4 @@ function Footer() {
         </>
     )
 }
-
-export default Footer;
 
